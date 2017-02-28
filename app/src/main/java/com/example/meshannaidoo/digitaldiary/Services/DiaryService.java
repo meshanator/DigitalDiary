@@ -1,8 +1,10 @@
 package com.example.meshannaidoo.digitaldiary.Services;
 
+import android.Manifest;
 import android.net.Uri;
 import android.os.Environment;
 import android.os.ParcelFileDescriptor;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.content.FileProvider;
 import android.util.Log;
 
@@ -27,6 +29,7 @@ public class DiaryService {
         String dayFileName = String.valueOf(year) + String.valueOf(month) + String.valueOf(dayOfTheMonth) + ".txt";
         File file = new File(currentDirectory, dayFileName);
         String contents = "";
+
 
         if(!file.exists())
         {
