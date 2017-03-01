@@ -1,16 +1,9 @@
 package com.example.meshannaidoo.digitaldiary.Services;
 
-import android.Manifest;
-import android.net.Uri;
 import android.os.Environment;
-import android.os.ParcelFileDescriptor;
-import android.support.v4.content.ContextCompat;
-import android.support.v4.content.FileProvider;
-import android.util.Log;
 
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
