@@ -10,25 +10,26 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.meshannaidoo.digitaldiary.DayActivity">
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textMultiLine"
-        android:ems="15"
-        android:lines="10"
-        android:layout_marginTop="19dp"
-        android:id="@+id/DayTextMain"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        />
-
     <Button
         android:text="Save"
-        android:textColor="@color/colorAccent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/DayButtonSave"
         android:layout_marginTop="35dp"
         android:layout_below="@+id/DayTextMain"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:elegantTextHeight="true"
+        android:text="Meshan"
+        android:ems="15"
+        android:lines="10"
+        android:background="@android:color/holo_orange_light"
+        android:layout_marginTop="13dp"
+        android:id="@+id/DayTextMain"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>
